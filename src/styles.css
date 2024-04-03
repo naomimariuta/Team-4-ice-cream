@@ -2,9 +2,9 @@
     
             width: 100%;
            
-            max-width: 1280px;
+            max-width:80rem;
         
-            height: 660px;
+            height: 41.25rem;
           
             background-color:  #FFB8CA;
         
@@ -13,9 +13,7 @@
         
 }
 .container {
-    width: 100%;
-    height: 200px;
-   
+
    
     display: flex;
     flex-direction: column;
