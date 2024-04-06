@@ -4,12 +4,47 @@
 
     max-width: 80rem;
 
-    height: 41.25rem;
+    height: 46.25rem;
 
     background-color: #FFB8CA;}
+    .icecream{
+        margin-top: -33rem;
+        margin-left: 2rem;
+    }
 .btnlist{
 margin-left: -1rem;
 margin-top: 1.25rem;
 }
+.bio{
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+.indulge{
+    margin-left:15rem;
+    margin-top: -9rem;
 
-    
+}
+.slider{margin-left: 15rem;
+    margin-top: 2rem;
+
+}
+.i16{
+    margin-top: -36rem;
+margin-left: 73rem;
+}
+
+.Ellipse{
+    margin-top:-36rem;
+    margin-left: 35rem;
+}
+.ice{
+    margin-top: -35.1rem;
+    margin-left: 42rem;
+}
+.sooo{
+    margin-top: -9.3rem;
+    margin-left: 60rem;
+}
+.i23{
+    margin-left: 72rem;
+}
