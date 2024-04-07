@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://github.com/Apophis96/Team-4-ice-cream",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel --no-cache src/*.html",
     "build": "parcel build src/*.html --public-url /Team-4-ice-cream/"
   },
   "repository": {
