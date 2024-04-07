@@ -80,7 +80,7 @@
   padding: 0.625em;
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 1em;
+  font-size: 2.125em;
   line-height: 186%;
   letter-spacing: 0.02em;
   color: #000;
@@ -113,12 +113,9 @@
   line-height: 186%;
   letter-spacing: 0.02em;
   color: #000;
+  padding-bottom: 4.188em;
 }
-.footer_horizontal_line {
-  width: 100%;
-  color: E1E1E1;
-  // height: 0.063em;
-}
+
 .copyright {
   display: flex;
   flex-direction: row;
@@ -141,4 +138,7 @@
   font-size: 14px;
   line-height: 152%;
   color: #907e82;
+}
+.footer-feel-free-to-contact a {
+  text-decoration: none;
 }
