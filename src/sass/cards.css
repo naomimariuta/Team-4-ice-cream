@@ -1,0 +1,33 @@
+/*Card section*/
+.cards {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff5f6;
+  gap: 32px;
+}
+
+.cafe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.cafe-header {
+  color: #ffffff;
+  background-color: #f0d1a5;
+  text-transform: uppercase;
+}
+
+.food-truck {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.food-truck-header {
+  color: #ffffff;
+  background-color: #c2e297;
+  text-transform: uppercase;
+}
