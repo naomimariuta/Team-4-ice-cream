@@ -1,21 +1,46 @@
 /*Card section*/
+:root {
+  --background-color: #ffffff;
+  --border-color: #ffffff;
+  --paragraph-color: #907e82;
+  --open-hours-color: #ffa5ba;
+  --background-color-cafe: #f0d1a5;
+  --background-color-food-truck: #c2e297;
+  --cards-title-color: #ffffff;
+}
+
+p {
+  color: var(--paragraph-color);
+}
+
+.open-hours {
+  color: var(--open-hours-color);
+}
+
 .cards {
   display: flex;
   flex-direction: row;
-  background-color: #fff5f6;
+  background-color: var(--background-color);
   gap: 32px;
+}
+
+.border-card {
+  padding: 30px;
+  background-color: var(--background-color);
+  border: solid var(--border-color);
+  border-radius: 5%;
 }
 
 .cafe {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .cafe-header {
-  color: #ffffff;
-  background-color: #f0d1a5;
+  color: var(--cards-title-color);
+  background-color: var(--background-color-cafe);
   text-transform: uppercase;
 }
 
@@ -27,7 +52,7 @@
 }
 
 .food-truck-header {
-  color: #ffffff;
-  background-color: #c2e297;
+  color: var(--cards-title-color);
+  background-color: var(--background-color-food-truck);
   text-transform: uppercase;
 }
