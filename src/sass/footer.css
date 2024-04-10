@@ -1,0 +1,144 @@
+:root {
+  --font-family: 'DM Sans', sans-serif;
+  --second-family: 'Titan One', sans-serif;
+}
+.footer {
+  background: #fff5f6;
+}
+.footer-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 4em;
+  gap: 2em;
+}
+.footer-btn {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  color: #d41443;
+  border-radius: 1.375em;
+  width: 12.375em;
+  height: 2.75em;
+  border: none;
+}
+.footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.footer-btn:hover {
+  color: #fff;
+  background: #d41342;
+}
+.footer-btn:active {
+  color: D41342;
+}
+.footer-homemade-ice-cream-made {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 1.875em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffa5ba;
+  margin-left: 1.25em;
+  gap: 1em;
+}
+.footer-with-passion {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 3.625em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #d41443;
+}
+.footer-with-passion {
+  margin-left: 0.8em;
+  gap: 0.125em;
+}
+.footer-with-passion {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 3.625em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #d41443;
+}
+.footer-social-media {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3em;
+  gap: 4em;
+}
+.footer-social-media-icons {
+  width: 2em;
+  height: 2em;
+  border-radius: 100%;
+  background-color: #fea5bb;
+  padding: 0.625em;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 2.125em;
+  line-height: 186%;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+.social-and-phone .footer-social-media-icons:hover {
+  background: #d41443;
+}
+.footer-feel-free-to-contact {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3em;
+  margin-top: 3em;
+  margin-bottom: 0;
+  gap: 0.5em;
+}
+
+.footer-contact-tel {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 186%;
+  letter-spacing: 0.02em;
+  color: #d41443;
+}
+
+.footer-feel-free-to-contact {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 186%;
+  letter-spacing: 0.02em;
+  color: #000;
+  padding-bottom: 4.188em;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 152%;
+  text-align: center;
+  color: #907e82;
+  padding-bottom: 2em;
+  border-top: 1px solid #e1e1e1;
+  padding: 0.5em 0;
+}
+.copyright-text {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 152%;
+  color: #907e82;
+}
+.footer-feel-free-to-contact a {
+  text-decoration: none;
+}
