@@ -59,8 +59,12 @@
 .icons {
   display: flex;
   flex-direction: row;
-
+  flex-wrap: wrap;
   height: 15vw;
+}
+
+.icon-721 {
+  border: 3px solid yellowgreen;
 }
 
 .icons h2 {
@@ -69,19 +73,9 @@
   font-weight: 400;
 }
 
-.icon-721 svg {
-  width: 98px;
-  height: 65px;
-}
-
-.kg svg {
-  width: 147px;
-  height: 65px;
-}
-
-.icon-84 svg {
-  width: 77px;
-  height: 65px;
+.svg-dim {
+  width: 50px;
+  height: 50px;
 }
 
 span {
