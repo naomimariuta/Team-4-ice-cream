@@ -11,7 +11,7 @@
 
 .masonry {
   overflow-x: hidden;
-  max-width: 20rem;
+  max-width: 25rem;
   z-index: 20;
   position: relative;
   display: flex;
