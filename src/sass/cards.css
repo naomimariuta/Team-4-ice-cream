@@ -47,8 +47,6 @@ a:active {
   background-color: var(--background-color-cards);
   gap: 20px;
   justify-content: center;
-  max-width: 75em;
-  border: 3px solid black;
 }
 
 .border-card {
